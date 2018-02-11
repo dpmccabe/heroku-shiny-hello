@@ -1,5 +1,3 @@
-.libPaths( c("lib", .libPaths() ) )
-
 library(shiny)
 library(shinythemes)
 library(shinydashboard)
