@@ -7,7 +7,7 @@ my_packages = c("shinythemes","shinydashboard","lubridate","ggplot2","dygraphs",
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
-    install.packages(p)
+    install.packages(p, dependencies = TRUE)
   }
 }
 
