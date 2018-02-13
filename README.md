@@ -12,7 +12,8 @@ for instructions on installing the CLI on the OS of your choice.
 
 ## See an app running
 I deployed this app already to the VPAL organization. See it live:
-http://
+https://heroku-shiny-hello-2.herokuapps.com
+
 ## Deploy this application to Heroku
 
 First, create the application.
@@ -37,7 +38,7 @@ git push heroku master
 ```
 
 After a long time of compiling R and the libraries required, you can access the app on
-https://heroku-shiny-hello-2.herokuapps.com
+https://heroku-shiny-hello-3.herokuapps.com
 
 ## Adding library dependencies
 Add all your library dependencies to init.R. Look at the init.R in this repository for an example. Whenever you deploy to Heroku, these libraries will be built and included.
